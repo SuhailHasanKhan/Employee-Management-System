@@ -5,5 +5,9 @@ class Employee {
         this.name = name;
         this.department = department;
     }
+
+    describe() {
+        return `Name: ${this.name} \t|\t Department: ${this.department}`
+    }
 }
 
