@@ -1,3 +1,9 @@
-// Coding Challenge 00
+// Coding Challenge 06
 
-// Code goes here
+class Employee {
+    constructor(name, department) {
+        this.name = name;
+        this.department = department;
+    }
+}
+
