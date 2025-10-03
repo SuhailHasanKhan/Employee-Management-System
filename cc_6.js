@@ -48,3 +48,12 @@ class Company {
         }
     }
 }
+
+let co = new Comapny('SHK Partners');
+co.addEmployee(emp1);
+co.addEmployee(emp2);
+co.addEmployee(emp3);
+co.addEmployee(mng1);
+co.addEmployee(mng2);
+co.addEmployee(mng3);
+co.listEmployees();
