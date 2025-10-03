@@ -21,3 +21,7 @@ class Manager extends Employee {
         return `${this.name} manages ${this.teamSize} people`
     }
 }
+
+let emp1 = new Employee('Jamie Brown', 'Investment Banking');
+let emp2 = new Employee('Henry Cavil', 'Accounting');
+let emp3 = new Employee('Bob Ross', 'Private Equity');
