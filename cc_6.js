@@ -42,7 +42,7 @@ class Company {
     }
 
     listEmployees() {
-        console.log('----------------Employee Information----------------')
+        console.log('-------------SHK Partners: Employee Information-------------')
         for (let e of this.employees) {
             console.log(e.describe());
         }
