@@ -29,3 +29,22 @@ let emp3 = new Employee('Bob Ross', 'Private Equity');
 let mng1 = new Manager('John Cena', 'Investment Banking', 167);
 let mng2 = new Employee('Gary Gills', 'Accounting', 120);
 let mng3 = new Employee('Rocky Ray', 'Private Equity', 81);
+
+
+class Company {
+    constructor(name) {
+        this.name = name;
+        this.employees = [];
+    }
+
+    addEmployee(employee) {
+        this.employees.push(employee);
+    }
+
+    listEmployees() {
+        console.log('-----Employee Information-----')
+        for (let e of this.employees) {
+            console.log(e.describe());
+        }
+    }
+}
