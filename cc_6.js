@@ -25,3 +25,7 @@ class Manager extends Employee {
 let emp1 = new Employee('Jamie Brown', 'Investment Banking');
 let emp2 = new Employee('Henry Cavil', 'Accounting');
 let emp3 = new Employee('Bob Ross', 'Private Equity');
+
+let mng1 = new Manager('John Cena', 'Investment Banking', 167);
+let mng2 = new Employee('Gary Gills', 'Accounting', 120);
+let mng3 = new Employee('Rocky Ray', 'Private Equity', 81);
